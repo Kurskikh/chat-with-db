@@ -42,7 +42,7 @@
 ## Использование
 
 После запуска веб-приложения пользователь встречается с интерфейсом, где он может вводить свои вопросы, связанные с SQL-запросами, в текстовое поле. 
-Для использования mySQL используйте импорт  `from langchain_community.utilities import SQLDatabase` и uri `db_uri = "mysql+mysqlconnector://root:admin@localhost:3306/Chinook"`.
+Для использования mySQL используйте импорт  `from langchain_community.utilities import SQLDatabase` и uri `db_uri = "mysql+mysqlconnector://root:admin@localhost:3306/Chinook"`. для MSSQL `mssql+pyodbc://<username>:<password>@<dsnname>`
 
 Вот шаги, как это работает:
 
